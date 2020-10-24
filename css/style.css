@@ -1,0 +1,108 @@
+body
+{
+ 	font-family:arial;
+	transition: background-color .5s;
+}
+#main
+{
+	width:1200px;
+	height:auto;
+	margin:10px;
+	transition: margin-left .5s;
+}
+#nav
+{
+	width:590px;
+	height:50px;
+	margin-bottom:10px;
+}
+#nav ul
+{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow: hidden;
+}
+#nav ul li
+{
+	float:left;
+}
+#nav ul li a
+{
+	display:block;
+	color:blue;
+	text-align: center;
+	padding: 14px 16px;
+	font-size:14px;
+	text-decoration:none;
+}
+#nav ul li a:hover:not(.active) {
+  background-color: #A0A0A0;
+}
+
+.active {
+  background-color: #A0A0A0;
+}
+
+.myDiv {
+  text-align: center;
+  height : 200px;
+  width : 270px;
+  font-size:16px;
+  color:black;
+  padding: 15px ;
+}
+.myDivWeb {
+  background-color: red;
+}
+.myDivAndroid {
+  background-color: blue;
+}
+.myDivJava {
+  background-color:  #daa520;
+}
+.myDivOOPS {
+  background-color: green;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 40px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
